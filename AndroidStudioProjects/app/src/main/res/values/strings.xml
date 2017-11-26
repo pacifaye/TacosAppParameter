@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Smart Tacos</string>
+
+    <!-- General -->
+    <string name="head_general">General</string>
+
+    <string name="title_user_name">User Name</string>
+    <string name="default_user_name">N/A</string>
+
+    <string name="title_user_profile">Full Speech Interactions</string>
+
+    <string name="title_touch_screen">Touch Screen</string>
+    <string name="title_speech_recognition">Speech Recognition</string>
+    <string name="title_gesture_interaction">Gesture Interaction</string>
+
+    <!-- Notifications -->
+    <string name="head_notifications">Notifications</string>
+
+    <string name="title_background_notification">Background Notifications</string>
+    <string name="title_vibrate">Vibrate</string>
+</resources>

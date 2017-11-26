@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/default_user_name"
+        android:inputType="textCapWords"
+        android:key="UserName"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/title_user_name" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:disableDependentsState="true"
+        android:key="UserProfile"
+        android:title="@string/title_user_profile" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="touch_switch"
+        android:dependency="UserProfile"
+        android:title="@string/title_touch_screen" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="speech_switch"
+        android:dependency="UserProfile"
+        android:title="@string/title_speech_recognition" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="gesture_switch"
+        android:dependency="UserProfile"
+        android:title="@string/title_gesture_interaction" />
+</PreferenceScreen>
